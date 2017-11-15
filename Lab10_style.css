@@ -1,0 +1,73 @@
+body {
+	background-image:url () ;
+	background-size:100%
+}
+
+.menuUl {
+	list-style-type: none;
+	opacity: 0.5;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: blueviolet;
+	font-size: 25px;
+}
+
+.menuLi {
+	float: left;
+}
+.active {
+	display: block;
+	color: darkred;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.active:hover {
+	background-color: palevioletred;
+	color: white;
+}
+.paragraph {
+	font-family: "arial rounded mt bold";
+	font-size: 20px;
+	font-weight: 900;
+	color: black;
+}
+
+.header {
+	text-align: center;
+	color: indigo;
+	font-family: "courier new";
+	font-size: 80px;
+}
+
+.image {
+	height: 150px;
+	width: 150px;
+	float: right;
+}
+
+.position {
+	width: 33%;
+	margin: 0 auto;
+	font-size: 25px;
+	font-family: "copperplate gothic bold";
+}
+
+.picture {
+	display: block;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.right{
+	float:right;	
+}
+
+.front:td{
+	font-size:100px;
+}
